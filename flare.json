@@ -1,0 +1,1102 @@
+{
+ "name": "Drinks",
+ "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/marvel.png",
+ "children": [
+  {
+"name": "Alcohol",
+   "children": [
+    {
+     "name": "Cocktail",
+	 "children": [
+	  {"name": "'57 Chevy with a White License Plate", 
+	   "children": [
+       {"name": "Creme de Cacao,Vodka"}   
+      ] 
+	  },
+	  {"name": "155 Belmont",
+	  "children": [
+       {"name": "Dark Rum, Light Rum, Vodka, Orange Juice"}
+      ] 
+	  },
+    {"name": "9 1/2 Weeks",
+	  "children": [
+       {"name": "Absolut Citron,Orange Curacao,Strawberry liqueur,Orange juice"}
+      ] 
+	  },
+    {"name": "A Gilligan's Island", 	  
+	  "children": [
+       {"name": "Vodka,Peach schnapps,Orange juice,Cranberry juice"}
+      ] 
+	  },
+	  {"name": "A True Amaretto Sour",
+	  	  "children": [
+       {"name": "Amaretto,Lemon,Ice,Maraschino cherry"}
+      ] 
+	  },
+	  {"name": "A1",
+	  "children": [
+       {"name": "Gin,Grand Marnier,Lemon Juice,Grenadine"}
+      ] 
+	  },
+	  {"name": "Abbey Martini", 
+	  	  "children": [
+       {"name": "Gin,Sweet Vermouth,Orange Juice,Angostura Bitters"}
+      ] 
+	  },
+	  {"name": "A.D.M. (After Dinner Mint)",
+	  	  	  "children": [
+       {"name": "White Creme de Menthe,Southern Comfort,Vodka,Hot chocolate"}
+      ] 
+	  },
+	  {"name": "Absolut Summertime",
+	  	"children": [
+       {"name": "Absolut Citron, Sweet and Sour, Sprite, Soda Water"}
+      ] 
+	  },
+	  {"name": "Absolutely Fabulous",
+	   "children": [
+       {"name": "Vodka,Cranberry Juice,Champagne"}
+      ] 
+	  },
+	  {"name": "Absolutly Screwed Up",
+	  	"children": [
+       {"name": "Absolut Citron, Orange juice, Triple Sec"}
+      ] 
+	  },
+	  {"name": "Ace",
+	  "children": [
+       {"name": "Gin, Grenadine, Heavy Cream, Milk, Egg White"}
+      ] 	  
+	  },
+	  {"name": "Adam & Eve",
+	  	  "children": [
+       {"name": "Gin, Cognac, Creme de Cassis, Fresh Lemon Juice"}
+      ] 
+	  }
+     ]
+    },
+	{
+     "name": "Punch / Party Drink",
+	 "children": [
+	  {"name": "Adam Bomb",
+	  	 "children": [
+       {"name": "Rum, Vodka, Tequila, Triple Sec"}
+      ] 
+	  },
+    {"name": "Amaretto Sweet & Sour", 
+	   "children": [
+       {"name": "Amaretto, Sweet and Sour, Midori melon liqueur, Pineapple Juice"}
+      ] 
+	  },
+    {"name": "Apple Grande",
+	  	   "children": [
+       {"name": "Tequila, Apple Cider"}
+      ] 
+	  },
+    {"name": "Apricot punch",
+	  	  	   "children": [
+       {"name": "Apricot brandy, Champagne, Vodka, 7-Up, Orange Juice"}
+      ] 
+	  },
+	  {"name": "Arctic Fish", 
+	  	"children": [
+       {"name": "Vodka, Grape Soda, Orange Juice, Ice, Candy"}
+      ] 
+	  },
+	  {"name": "Arctic Mouthwash",
+	  	 "children": [
+       {"name": "Maui, Mountain Dew, Ice"}
+      ] 
+	  },
+	  {"name": "Artillery Punch",
+	  
+	  	"children": [
+       {"name": "Tea, Rye whiskey, Red Wine, Rum, Brandy"}
+      ] 
+	  },
+	  {"name": "Aztec Punch", 
+	  	 "children": [
+       {"name": "Lemonade, Vodka, Rum, Ginger ale"}
+      ] 
+	  },
+	  {"name": "Berry Deadly",
+	  	"children": [
+       {"name": "Everclear, Wine, Orange Juice, Kool-Aid"}
+      ] 
+	  },
+	  {"name": "Brain Fart",
+	  	"children": [
+       {"name": "Everclear, Vodka, Mountain Dew, Surge, Lemon Juice"}
+      ] 
+	  
+	  },
+	  {"name": "Downshift",
+	  	"children": [
+       {"name": "Fruit punch, Sprite, Tequila, 151 proof rum"}
+      ] 
+	  },
+	  {"name": "Moscow Mule",
+	  	  	"children": [
+       {"name": "Vodka, Lime Juice, Ginger Ale"}
+      ] 
+	  },
+	  {"name": "Mudslinger",
+	  	  	  	"children": [
+       {"name": "Southern Comfort, Orange Juice, Pepsi Cola"}
+      ] 
+	  },
+	  {"name": "Mulled Wine", 
+	  	  	  	"children": [
+       {"name": "Water, Sugar, Cloves, Cinnamon, Lemon Peel"}
+      ] 
+	  },
+	  {"name": "Pink Penocha", 
+	  	  	  	"children": [
+       {"name": "Everclear, Vodka, Peach schnapps, Orange Juice, Cranberry Juice"}
+      ] 
+	  },
+	  {"name": "Planter's Punc",
+	  	  	  	"children": [
+       {"name": "Dark rum, Orgeat syrup, Orange Juice, Pineapple Juice"}
+      ] 
+	  },
+	  {"name": "Rum Punch", 	  	  	
+	  "children": [
+       {"name": "Rum, Ginger ale, Fruit Punch, Orange Juice, Ice"}
+      ] 
+	  },
+	  {"name": "Rum Runner",
+	  	  	  	"children": [
+       {"name": "Malibu Rum, Blackberry brandy,Orange juice, Pineapple Juice, Cloves "}
+      ] 
+	  },
+	  {"name": "Sangria #1",
+	  
+	  	  	  	"children": [
+       {"name": "Red wine, Sugar, Orangejuice, Lemon Juice, Cinnamon"}
+      ] 
+	  },
+	  {"name": "Sangria - The World's Best", 
+	  	  	  	"children": [
+       {"name": "Red wine, Sugar, Lemon, Orange, Apple, Brandy, Soda Water"}
+      ] 
+	  },
+	  {"name": "Sweet Sangria",
+	  	  	  	"children": [
+       {"name": "Red wine, Sugar, Water, Apple, Orange, Lime, Lemon, Fresca"}
+      ] 
+	  },
+	  {"name": "Wine Punch",
+	  	  	  	"children": [
+       {"name": "Red wine, Lemon, Orange Juice, Orange, Pineapple Juice"}
+      ] 
+	  },
+	  {"name": "Zimadori Zinger",
+	  	  	  	"children": [
+       {"name": "Midori melon liqueur, Zima"}
+      ] 
+	  },
+	  {"name": "Zizi Coin-coin",
+	  	  	  	"children": [
+       {"name": "Cointreau, Lemon Juice, Ice, Lemon"}
+      ] 
+	  }
+     ]
+	},
+	{
+     "name": "Shot",
+	 "children": [
+	  {"name": "1-900-FUK-MEUP",
+	  	 "children": [
+       {"name": "Absolut Kurant, Grand Marnier, Chambord raspberry liqueur, Midori melon liqueur"}
+      ] 
+	  },
+    {"name": "24k nightmare", 
+	   "children": [
+       {"name": "Goldschlager, JÃgermeister, Rumple Minze, 151 proof rum"}
+      ] 
+	  },
+    {"name": "3 Wise Men",
+	  	   "children": [
+       {"name": "Jack Daniels, Johnnie Walker, Jim Beam"}
+      ] 
+	  },
+    {"name": "A Splash of Nash",
+	  	  	   "children": [
+       {"name": "Cranberry juice, Soda Water, Midori melon liqueur, Creme de Banane"}
+      ] 
+	  },
+	  {"name": "ABC", 
+	  	"children": [
+       {"name": "Amaretto, Bailey's irish cream, Cognac"}
+      ] 
+	  },
+	  {"name": "ACID",
+	  	 "children": [
+       {"name": "151 proof rum, Wild Turkey"}
+      ] 
+	  },
+	  {"name": "Absolut Sex",
+	  
+	  	"children": [
+       {"name": "Absolut Kurant, Midori melon liqueur, Cranberry Juice, Sprite"}
+      ] 
+	  },
+	  {"name": "After Five", 
+	  	 "children": [
+       {"name": "Peppermint schnapps, Kahlua, Baileys irish cream"}
+      ] 
+	  },
+	  {"name": "Apple Slammer",
+	  	"children": [
+       {"name": "7-Up, Apple schnapps"}
+      ] 
+	  },
+	  {"name": "Arizona Antifreeze",
+	  	"children": [
+       {"name": "Vodka, Midori melon liqueur, Sweet and sour"}
+      ] 
+	  },
+	  {"name": "Auburn Headbanger",
+	  	"children": [
+       {"name": "JÃgermeister, Goldschlager"}
+      ] 
+	  },
+	  {"name": "B-52",
+	  	  	"children": [
+       {"name": "Bailey's irish cream, Grand Marnier, Kahlua"}
+      ] 
+	  },
+	  {"name": "B-53",
+	  	  	  	"children": [
+       {"name": "Grand Marnier, Sambuca"}
+      ] 
+	  },
+	  {"name": "Baby Guinness", 
+	  	  	  	"children": [
+       {"name": "Kahlua, Bailey's irish cream"}
+      ] 
+	  },
+	  {"name": "Big Red", 
+	  	  	  	"children": [
+       {"name": "Goldschlager, Irish cream"}
+      ] 
+	  },
+	  {"name": "Bob Marley",
+	  	  	  	"children": [
+       {"name": "Midori melon liqueur, JÃgermeister,Goldschlager "}
+      ] 
+	  },
+	  {"name": "Brainteaser", 	  	  	
+	  "children": [
+       {"name": "Sambuca, Erin Cream, Advocaat"}
+      ] 
+	  },
+	  {"name": "Brave Bull Shooter",
+	  	  	  	"children": [
+       {"name": "Tequila, Tabasco sauce "}
+      ] 
+	  },
+	  {"name": "Bruce's Puce",
+	  
+	  	  	  	"children": [
+       {"name": "Grenadine, Kahlua, Bailey's irish cream"}
+      ] 
+	  },
+	  {"name": "Bruised Heart", 
+	  	  	  	"children": [
+       {"name": "Vodka, Chambord raspberry liqueur, Peachtree schnapps, Cranberry juice"}
+      ] 
+	  },
+	  {"name": "Bubble Gum",
+	  	  	  	"children": [
+       {"name": "Vodka, Banana liqueur, Orange juice,Peach schnapps "}
+      ] 
+	  },
+	  {"name": "Chocolate Milk",
+	  	  	  	"children": [
+       {"name": "Chocolate liqueur, Milk, Amaretto"}
+      ] 
+	  },
+	  {"name": "Damned if you do",
+	  	  	  	"children": [
+       {"name": "Whiskey, Hot Damn"}
+      ] 
+	  },
+	  {"name": "Fahrenheit 5000",
+	  	  	  	"children": [
+       {"name": "Firewater, Absolut Peppar, Tabasco sauce"}
+      ] 
+	  },
+	  {"name": "Flaming Dr. Pepper",
+	  	  	  	"children": [
+       {"name": "Amaretto, Vodka, 151 proof rum, Dr.Pepper, Beer"}
+      ] 
+	  },
+	  {"name": "Freddy Kruger",
+	  	  	  	"children": [
+       {"name": "JÃgermeister, Sambuca, Vodka"}
+      ] 
+	  },
+	  {"name": "Damned if you do",
+	  	  	  	"children": [
+       {"name": "Whiskey, Hot Damn"}
+      ] 
+	  },
+	  {"name": "Jam Donut",
+	  	  	  	"children": [
+       {"name": "Baileys irish cream, Chambord raspberry liqueur, Sugar Syrup, Sugar"}
+      ] 
+	  },
+	  {"name": "Jello shots",
+	  	  	  	"children": [
+       {"name": "Vodka, Jello, Water"}
+      ] 
+	  },
+	  {"name": "Jelly Bean",
+	  	  	  	"children": [
+       {"name": "Blackberry brandy, Anis"}
+      ] 
+	  },
+	  {"name": "Kool First Aid",
+	  	  	  	"children": [
+       {"name": "151 proof rum, Kool-Aid"}
+      ] 
+	  },
+	  {"name": "Kool-Aid Shot",
+	  	  	  	"children": [
+       {"name": "Vodka, Amaretto, Sloe gin, Triple sec, Cranberry juice"}
+      ] 
+	  },
+	  {"name": "Lemon Shot",
+	  	  	  	"children": [
+       {"name": "Galliano, Absolut Citron, Lemon, Sugar, 151 proof rum"}
+      ] 
+	  },
+	  {"name": "Moranguito",
+	  	  	  	"children": [
+       {"name": "Absinthe, Tequila, Grenadine"}
+      ] 
+	  },
+	  {"name": "Mother's Milk",
+	  	  	  	"children": [
+       {"name": "Goldschlager, Butterscotch schnapps, Milk"}
+      ] 
+	  },
+	  {"name": "Orange Crush",
+	  	  	  	"children": [
+       {"name": "Vodka, Triple sec, Orange juice"}
+      ] 
+	  },
+	  {"name": "Red Snapper",
+	  	  	  	"children": [
+       {"name": "Crown Royal, Amaretto, Cranberry Juice"}
+      ] 
+	  },
+	  {"name": "Royal Flush",
+	  	  	  	"children": [
+       {"name": "Crown Royal, Peach schnapps, Chambord raspberry liqueur, Cranberry juice"}
+      ] 
+	  },
+	  {"name": "Shot-gun",
+	  	  	  	"children": [
+       {"name": "Jim Beam, Jack Daniels, Wild Turkey"}
+      ] 
+	  },
+	  {"name": "Texas Rattlesnake",
+	  	  	  	"children": [
+       {"name": "Yukon Jack, Cherry brandy, Southern Comfort,Sweet and sour"}
+      ] 
+	  },
+	  {"name": "Turkeyball",
+	  	  	  	"children": [
+       {"name": "Wild Turkey, Amaretto, Pineapple Juice"}
+      ] 
+	  },
+	  {"name": "Zipperhead",
+	  	  	  	"children": [
+       {"name": "Chambord raspberry liqueur, Vodka, Soda water"}
+      ] 
+	  },
+	  {"name": "Dirty Nipple",
+	  	  	  	"children": [
+       {"name": "Kahlua, Sambuca, Bailey's irish cream"}
+      ] 
+	  }
+     ]
+    },
+	{
+     "name": "Milk / Float / Shake",
+     "children": [
+      {"name": "151 Florida Bushwacker",
+	  	  	  	  	"children": [
+       {"name": "Malibu rum, Light rum, 151 proof rum, Dark Creme de Cacao, Cointreau, Milk, Coconut liqueur, Vanilla Ice Cream"}
+      ] 
+	  },
+      {"name": "Avalanche",
+	  	  	  	  	"children": [
+       {"name": "Crown Royal, Kahlua, Cream"}
+      ] 
+	  },
+      {"name": "Baby Eskimo",
+	  	  	  	  	"children": [
+       {"name": "Kahlua, Milk, Vanilla ice-cream"}
+      ] 
+	  },
+      {"name": "Black Forest Shake",
+	  	  "children": [
+       {"name": "Ice, Chocolate syrup, Cherry brandy, Vodka, Milk"}
+      ] 
+	  },
+	  {"name": "Blind Russian", 	  	  	  	
+	  "children": [
+       {"name": "Bailey's irish cream, Godiva liqueur, Kahlua, Butterscotch schnapps, Milk, "}
+      ] 
+	  },
+	  {"name": "Boozy Snickers Milkshake",
+	  	  	  	  	"children": [
+       {"name": "Vanilla Ice-Cream, Milk, Godiva liqueur,Whipped cream, caramel sauce, chocolate sauce, Mini-snickers bars"}
+      ] 
+	  },
+	  {"name": "Butter Baby",
+	  	  	  	  	"children": [
+       {"name": "Vanilla Ice-Cream, Butterscotch schnapps, Milk, Vodka"}
+      ] 
+	  },
+	  {"name": "Jamaica Kiss",
+	  	  	  	  	"children": [
+       {"name": "Coffee liqueur, Light rum, Ice, Milk"}
+      ] 
+	  },
+	  {"name": "Nutty Irishman",
+	  	  	  	  	"children": [
+       {"name": "Bailey's irish cream, Frangelico, Milk"}
+      ] 
+	  },
+	  {"name": "Sweet Tooth",	  	  	  	
+	  "children": [
+       {"name": "Godiva liqueur, Milk"}
+      ] 
+	  },
+	  {"name": "Texas Sling", 
+	  
+	  	  	  	  	"children": [
+       {"name": "Kahlua,Irish cream, Amaretto, 151 proof rum, Cream"}
+      ] 
+	  }
+	  
+     ]
+    },
+	{
+     "name": "Homemade Liqueur",
+     "children": [
+      {"name": "Absinthe #2",
+	  	  	  	  	"children": [
+       {"name": "Vodka, Sugar, Anice, Licorice root, Wormwood"}
+      ] 
+	  },
+      {"name": "Amaretto Liqueur",
+	  	  	  	  	"children": [
+       {"name": "Sugar, water, Apricot, Almond flavoring, Grain alcohol"}
+      ] 
+	  },
+      {"name": "Angelica Liqueur",
+	  	  	  	  	"children": [
+       {"name": "Angelica root, Almond, Allspice, Cinnamon, Anise"}
+      ] 
+	  },
+      {"name": "Caribbean Orange Liqueur",
+	  	  "children": [
+       {"name": "Orange, Vodka, Sugar"}
+      ] 
+	  },
+	  {"name": "Coffee Liqueur", 	  	  	  	
+	  "children": [
+       {"name": "Coffee, Vanilla extract, Sugar, Vodka, Water"}
+      ] 
+	  },
+	  {"name": "Coffee-Vodka",
+	  	  	  	  	"children": [
+       {"name": "Water, Sugar, Coffee, Vanilla, Vodka"}
+      ] 
+	  },
+	  {"name": "Cranberry Cordial",
+	  	  	  	  	"children": [
+       {"name": "Cranberries, Sugar, Light Rum"}
+      ] 
+	  },
+	  {"name": "Creme de Menthe",
+	  	  	  	  	"children": [
+       {"name": "Sugar, Water, Grain alcohol, Peppermint extract, Food coloring"}
+      ] 
+	  },
+	  {"name": "Homemade Kahlua",
+	  	  	  	  	"children": [
+       {"name": "Sugar, Corn syrup, Coffee, Vanilla extract, Water"}
+      ] 
+	  },
+	  {"name": "Irish Cream",	  	  	  	
+	  "children": [
+       {"name": "Scotch, Half-and-half,Condensed milk, Coconut syrup, Chocolate syrup "}
+      ] 
+	  },
+	  {"name": "Scottish Highland Liqueur", 
+	  
+	  	"children": [
+       {"name": "Johnnie Walker, Honey, Angelica root, Fennel seeds, Lemon Peel "}
+      ] 
+	  },
+	  {"name": "Tia-Maria",	  	  	  	
+	  "children": [
+       {"name": "Water, Brown sugar, Coffee, Rum, Vanilla extract"}
+      ] 
+	  }
+     ]
+    },
+    {
+     "name": "Beer",
+     "children": [
+      {"name": "110 in the shade",
+	  	  "children": [
+       {"name": "Lager, Tequila"}
+      ] 
+	  },
+      {"name": "Black & Tan",
+	  	  "children": [
+       {"name": "Ale, Guinness stout"}
+      ] 
+	  },
+      {"name": "Black and Brown",
+	  	  "children": [
+       {"name": "Guinness stout, Root beer"}
+      ] 
+	  },
+      {"name": "Buccaneer",
+	  	  "children": [
+       {"name": "Corona, Bacardi Limon"}
+      ] 
+	  },
+      {"name": "Campari Beer",
+	  	  "children": [
+       {"name": "Lager, Campari"}
+      ] 
+	  },
+	  {"name": "Caribbean Boilermaker", 
+	  	  "children": [
+       {"name": "Corona, Light rum"}
+      ] 
+	  },
+	  {"name": "Diesel", 
+	  	  "children": [
+       {"name": "Lager, Cider, Blackcurrant cordial"}
+      ] 
+	  },
+	  {"name": "Green Goblin", 
+	  	  "children": [
+       {"name": "Cider, Lager, Blue Curacao"}
+      ] 
+	  },
+	  {"name": "Irish Russian",
+	  	  "children": [
+       {"name": "Vodka, Kahlua, Coca-Cola, Guinness stout"}
+      ] 
+	  },
+	  {"name": "Limona Corona", 
+	  	  "children": [
+       {"name": "Corona, Bacardi Limon"}
+      ] 
+	  },
+	  {"name": "Lunch Box",	  
+	  "children": [
+       {"name": "Beer, Amaretto, Orange Juice"}
+      ] 
+	  },
+	  {"name": "Snake Bite (UK)", 
+	  	  "children": [
+       {"name": "Lager, Cider"}
+      ] 
+	  },
+	  {"name": "Snakebite and Black", 
+	  	  "children": [
+       {"name": "Lager, Sider, Blackcurrant squash"}
+      ] 
+	  }
+     ]
+    },
+    {
+     "name": "Coffee / Tea",
+     "children": [
+      {"name": "Afternoon",
+	  	  	  "children": [
+       {"name": "Kahlua, Bailey's irish cream, Frangelico, Coffee, Cream"}
+      ] 
+	  },
+	  {"name": "Cafe Savoy",
+	  
+	  	  	  "children": [
+       {"name": "Coffee, Milk, Triple sec, Brandy"}
+      ] 
+	  },
+	  {"name": "Danbooka",
+	  	  	  "children": [
+       {"name": "Coffee, Everclear"}
+      ] 
+	  },
+	  {"name": "Fuzzy Asshole",
+	  	  	  "children": [
+       {"name": "Coffee, Peach schnapps"}
+      ] 
+	  },
+	  {"name": "H.D.",	  	 
+	  "children": [
+       {"name": "Whisky, Bailey's irish cream, Coffee"}
+      ] 
+	  },
+	  {"name": "Herbal flame",
+	  	  	  "children": [
+       {"name": "Hot Damn, tea"}
+      ] 
+	  },
+	  {"name": "Hot Creamy Bush", 
+	  
+	  	  	  "children": [
+       {"name": "Irish whiskey, Bailey's irish cream, Coffee"}
+      ] 
+	  },
+	  {"name": "Iced Coffee Fillip",
+	  	  	  "children": [
+       {"name": "Kahlua, Coffee"}
+      ] 
+	  },
+	  {"name": "Irish Coffee", 
+	  	  	  "children": [
+       {"name": "Irish whiskey, Coffee, Sugar, Whipped cream"}
+      ] 
+	  },
+	  {"name": "Jamaican Coffee",
+	  	  	  "children": [
+       {"name": "Rum, Coffee, Water, Whipped cream"}
+      ] 
+	  },
+	  {"name": "Kioki Coffee", 
+	  	  	  "children": [
+       {"name": "Kahlua, Brandy, Coffee"}
+      ] 
+	  },
+	  {"name": "Kurant Tea", 
+	  	  	  "children": [
+       {"name": "Absolut Kurant, Tea, Sugar"}
+      ] 
+	  }
+	 
+     ]
+    }
+   ]
+},
+
+  {
+"name": "Optional Alcohol",
+   "children": [
+    {
+     "name": "Milk / Float / Shake",
+	 "children": [
+	  {"name": "Chocolate Monkey", 
+	   "children": [
+       {"name": "Banana liqueur,Creme de Cacao,Chocolate ice-cream, Chocolate syrup, Chocolate milk, Whipped cream, Cherry, Banana"}   
+      ] 
+	  }
+     ]
+    },
+	{
+     "name": "Ordinary drink",
+	 "children": [
+	  {"name": "GG",
+	  	 "children": [
+       {"name": "Galliano, Ginger Ale, Ice"}
+      ] 
+	  }
+     ]
+	},
+	{
+     "name": "Punch / Party Drink",
+	 "children": [
+	  {"name": "Apple Cider Punch #1",
+	  	 "children": [
+       {"name": "Apple cider, Brown Sugar, Lemonade, Orange juice, Cloves, Allspice, Nutmeg, Cinnamon"}
+      ] 
+	  },
+    {"name": "Egg Nog #4", 
+	   "children": [
+       {"name": "Egg yolk, Sugar, Milk, Light rum, Bourbon, Vanilla extract, Salt, Whipping cream, Egg White"}
+      ] 
+	  },
+    {"name": "Egg Nog - Healthy",
+	  	   "children": [
+       {"name": "Egg, Sugar, Condensed Milk, Vanilla extract, Rum, Nutmeg"}
+      ] 
+	  
+	  },
+	  	  {"name": "Egg-Nog - Classic Cooked",
+	  	  	  	"children": [
+       {"name": "Egg, Sugar, Salt, Milk, Vanilla extract"}
+      ] 
+	  },
+	  	  {"name": "Sunny Holiday Punch",
+	  	  	  	"children": [
+       {"name": "Pineapple juice, Club Soda, Orange juice, Lemon, Berries, Champagne"}
+      ] 
+	  },
+	  {"name": "Wine Cooler",
+	  	  	  	"children": [
+       {"name": "Red Wine, Lemon-lime soda"}
+      ] 
+	  },
+	  {"name": "Gluehwein",
+	  	  	  	"children": [
+       {"name": "Water, Sugar, Cinnamon, Cloves, Lemon Peel"}
+      ] 
+	  }
+     ]
+    }
+   ]
+},
+
+  {
+   "name": "Non-Alcoholic",
+   "children": [
+    {
+     "name": "Cocktail",
+     "children": [
+      {
+       "name": "Afterglow",
+       "children": [
+        {"name": "Grenadine, Orange juice, Pineapple juice"}
+       ]
+      },
+	  {
+       "name": "Alice Cocktail",
+       "children": [
+        {"name": "Grenadine, Orange juice, Pineapple juice, Cream"}
+       ]
+      },
+	  {"name": "Apple Karate", 
+	  	   "children": [
+       {"name": "Apple juice, Carrot"}   
+      ] 
+	  },
+	  {"name": "Bora Bora", 
+	  	   "children": [
+       {"name": "Pineapple juice, Passion fruit juice, Lemon juice, Grenadine"}   
+      ] 
+	  },
+      {"name": "Orangeade",
+	  "children": [
+       {"name": "Lemon juice, Orange juice, Sugar syrup, Soda water"}   
+      ] 
+	  },
+      {"name": "Rail Splitter",
+	  "children": [
+       {"name": "Sugar syrup, Lemon juice, Ginger Ale"}   
+	   ]
+	  }
+
+     ]
+    },
+	
+	{
+     "name": "Coffee / Tea",
+     "children": [
+      {
+       "name": "Frappe",
+       "children": [
+        {"name": "Coffee, Milk, Sugar"}
+       ]
+      },
+	  {
+       "name": "Iced Coffee",
+       "children": [
+        {"name": "Coffee, Sugar, Water, Milk"}
+       ]
+      },
+	  {"name": "Masala Chai", 
+	  	   "children": [
+       {"name": "Water, Tea, Ginger, Cardamom, Cloves, Black Pepper, Sugar, Milk"}   
+      ] 
+	  },
+	  {"name": "Melya", 
+	  	   "children": [
+       {"name": "Espresso, Honey, Cocoa powder"}   
+      ] 
+	  },
+      {"name": "Spiking coffee",
+	  "children": [
+       {"name": "Coffee, Cinnamon"}   
+      ] 
+	  },
+	   {"name": "Thai Iced Coffee",
+	  "children": [
+       {"name": "Coffee, Sugar, Cream, Cardamom"}   
+      ] 
+	  },
+	        {"name": "Thai Iced Tea",
+	  "children": [
+       {"name": "Tea, Water, Condensed Milk, Ice, Mint"}   
+      ] 
+	  },
+      {"name": "Thai Coffee",
+	  "children": [
+       {"name": "Coffee, Coriander, Cardamom, Sugar, Whipping Cream, Ice"}   
+	   ]
+	  }
+
+     ]
+    },
+	
+	{
+     "name": "Others",
+     "children": [
+      {
+       "name": "Apello",
+       "children": [
+        {"name": "Orange juice, Grapefruit juice, Apple juice, Maraschino cherry"}
+       ]
+      },
+	  {
+       "name": "Apple Berry Smoothie",
+       "children": [
+        {"name": "Berries, Apple"}
+       ]
+      },
+	  {"name": "Banana Cantaloupe Smoothie", 
+	  	   "children": [
+       {"name": "Cantaloupe, Banana"}   
+      ] 
+	  },
+	  {"name": "Egg Cream", 
+	  	   "children": [
+       {"name": "Chocolate syrup, Milk, Soda Water"}   
+      ] 
+	  },
+      {"name": "Fruit Cooler",
+	  "children": [
+       {"name": "Apple juice, Strawberries, Sugar, Lemon, Apple"}   
+      ] 
+	  },
+	   {"name": "Fruit Flip-Flop",
+	  "children": [
+       {"name": "Yoghurt, Fruit juice"}   
+      ] 
+	  },
+	  {"name": "Fruit Shake",
+	  "children": [
+       {"name": "Yogurt, Banana, Orange juice, Fruit, Ice"}   
+      ] 
+	  },
+	  	  {"name": "Kill the cold Smoothie",
+	  "children": [
+       {"name": "Ginger, Lemon, Water"}   
+      ] 
+	  },
+	  	  {"name": "Kiwi Papaya Smoothie",
+	  "children": [
+       {"name": "Kiwi, Papaya"}   
+      ] 
+	  },
+	  	  {"name": "Lassi - A South Indian Drink",
+	  "children": [
+       {"name": "Yogurt,Water, Cumin seed, Salt, Mint"}   
+      ] 
+	  },
+	  {"name": "Lemouroudji",
+	  "children": [
+       {"name": "Ginger, Lemon, Water, Sugar, Cayenne pepper"}   
+      ] 
+	  },
+	  {"name": "Limeade",
+	  "children": [
+       {"name": "Lime, Sugar, Soda Water, Lime peel"}   
+      ] 
+	  },
+	  {"name": "Mango Orange Smoothie",
+	  "children": [
+       {"name": "Mango, Orange"}   
+      ] 
+	  },
+	  {"name": "Pineapple Gingerale Smoothie",
+	  "children": [
+       {"name": "Ginger,Pineapple"}   
+      ] 
+	  },
+	  {"name": "Strawberry Shivers",
+	  "children": [
+       {"name": "Strawberries, Honey, Water"}   
+      ] 
+	  },
+	  {"name": "Tomato Tang",
+	  "children": [
+       {"name": "Tomato juice, Lemon juice, Celery Salt"}   
+      ] 
+	  },
+	  {"name": "Yoghurt Cooler",
+	  "children": [
+       {"name": "Yogurt, Fruit, Ice"}   
+      ] 
+	  },
+	  	  {"name": "Lassi Khara",
+	  "children": [
+       {"name": "Water, Salt, Asafoetida"}   
+      ] 
+	  },
+      {"name": "Grape lemon pineapple Smoothie",
+	  "children": [
+       {"name": "Grapes, Lemon, Pineapple"}   
+	   ]
+	  }
+
+     ]
+    },
+	
+	{
+     "name": "Ordinary Drink",
+     "children": [
+      {
+       "name": "Ipamena",
+       "children": [
+        {"name": "Lime, Brown Sugar, Passion fruit juice, Ginger Ale"}
+       ]
+      },
+	  {
+       "name": "Pysch Vitamin Light",
+       "children": [
+        {"name": "Orange juice, Apple juice, Pineapple juice, Ice"}
+       ]
+	  }
+     ]
+    },
+	
+	{
+     "name": "Milk / Float / Shake",
+     "children": [
+      {
+       "name": "Banana Milk Shake",
+       "children": [
+        {"name": "Milk, Orange juice, Sugar syrup, Banana"}
+       ]
+      },
+	  {
+       "name": "Banana Strawberry Shake",
+       "children": [
+        {"name": "Strawberries, Banana, Yogurt, Milk, Honey"}
+       ]
+      },
+	  {"name": "Banana Strawberry Shake Daiquiri-type", 
+	  	   "children": [
+       {"name": "Strawberries, Banana, Apple juice"}   
+      ] 
+	  },
+	  {"name": "Just a Moonmint", 
+	  	   "children": [
+       {"name": "Milk, Chocolate syrup, Mint syrup"}   
+      ] 
+	  },
+      {"name": "Sweet Bananas",
+	  "children": [
+       {"name": "Milk, Banana, Honey"}   
+      ] 
+	  }
+     ]
+    },
+
+	
+	{
+     "name": "Punch / Party Drink",
+     "children": [
+      {
+       "name": "Aloha Fruit punch",
+       "children": [
+        {"name": "Water, Ginger, Guava juice, Lemon Juice, Pineapple Juice"}
+       ]
+      },
+	  {
+       "name": "Cranberry Punch",
+       "children": [
+        {"name": "Cranberry juice, Sugar, Pineapple juice, Almond flavoring, Ginger Ale"}
+       ]
+      },
+	  {"name": "Holloween Punch", 
+	  	   "children": [
+       {"name": "Grape juice, Carbonated soft drink, Sherbet"}   
+      ] 
+	  },
+	  {"name": "Spiced Peach Punch", 
+	  	   "children": [
+       {"name": "Peach nectar, Orange juice, Brown sugar, cinnamon, cloves"}   
+      ] 
+	  },
+      {"name": "Strawberry Lemonade",
+	  "children": [
+       {"name": "Lemon, Sugar, Strawberries, Water"}   
+      ] 
+	  }
+     ]
+    },
+	{
+     "name": "Cocoa",
+     "children": [
+      {
+       "name": "Castillian Hot Chocolate",
+       "children": [
+        {"name": "Cocoa powder, Sugar, CornStarch, Water, Milk"}
+       ]
+      },
+	  {
+       "name": "Chocolate Beverage",
+       "children": [
+        {"name": "Milk, Chocolate, Cinnamon,Egg"}
+       ]
+      },
+	  {"name": "Chocolate Drink", 
+	  	   "children": [
+       {"name": "Chocolate, Milk, Water"}   
+      ] 
+	  },
+	  {"name": "Drinking Chocolate", 
+	  	   "children": [
+       {"name": "Heavy cream, Milk, Cinnamon, Vanilla, Chocolate, Whipped Cream"}   
+      ] 
+	  },
+      {"name": "Hot Chocolate to Die for",
+	  "children": [
+       {"name": "Chocolate, Butter, Vanila Extract, Hald-and-half, Marshmallows"}   
+      ] 
+	  },
+      {"name": "Microwave Hot Cocoa",
+	  "children": [
+       {"name": "Sugar, Cocoa Powder, Salt, Water,Milk, Vanilla Extract"}   
+	   ]
+	  },
+	        {"name": "Nuked Hot Chocolate",
+	  "children": [
+       {"name": "Cocoa powder, Sugar, Vanilla extract, Milk"}   
+      ] 
+	  },
+	        {"name": "Orange Scented Hot Chocolate",
+	  "children": [
+       {"name": "Milk, Chocolate,Orange peel, Espresso, Nutmeg"}   
+      ] 
+	  },
+	  {"name": "Spanish chocolate",
+	  "children": [
+       {"name": "Milk, Chocolate, Cinnamon, Egg Yolk"}   
+      ] 
+	  }
+     ]
+    },
+	{"name": "None", "size": 1
+	
+	}
+    
+   ]
+  }
+ ]
+}
