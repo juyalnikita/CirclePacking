@@ -16,7 +16,7 @@
 }
 
 .label {
-  font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-anchor: middle;
   text-shadow: 0 1px 10 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 }
@@ -34,7 +34,7 @@ h1 {
 	text-decoration-line: underline;
 	text-align: center;
 
-	
+
 }
 
 
@@ -51,14 +51,14 @@ p {
       <h1 style="background-color:Tomato;">🍹Welcome to the Cocktail Bar🍹</h1>
       <p style="background-color:MediumSeaGreen;"> Choose from a variety of options- Alcoholic, Non-Alcoholic or Optional Alcoholic.<br><br> Clicking on a circle will help you narrow down your search for the perfect drink, along with it's ingredients</p>
     </header>
-	
-    <!-- container for force layout visualisation  -->
-    <section id="vis"></section> 
-	var tcBlack = "#ba375d";
-	
-<svg width="1100" height="1100"></svg>
-<script src="https://d3js.org/d3.v4.min.js"></script>
 
+    <!-- container for force layout visualisation  -->
+    <section id="vis"></section>
+
+
+<svg width="1100" height="1100"></svg>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
 
 <script>
 var w = 100,
@@ -90,12 +90,66 @@ d3.json("flare.json", function(error, root) {
       nodes = pack(root).descendants(),
       view;
 
+
   var circle = g.selectAll("circle")
     .data(nodes)
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
-      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+      .on("click", function(d) {
+                          if (focus !== d)
+                          zoom(d),
+                          d3.event.stopPropagation();
+                      })
+	.attr("r", function(d) {
+    return d.r;
+  })
+  .attr("id", function(d) {
+    return d.name;
+  })
+  .on("click", function(d) {
+    if (focus !== d) zoom(d), d3.event.stopPropagation();
+  })
+	.on("mouseout", handleMouseOut)
+    .on("mousemove", handleMouseMove);
+
+  var tooltip = d3.select("body")
+      .append("div")
+      .style("position", "absolute")
+      .style("background" , "black")
+      .style("border-radius", "3px")
+      .style("color", "white")
+      .style("padding", "6px")
+      .style("z-index", "10")
+      .style("visibility", "hidden")
+
+  function handleMouseMove(d){
+
+       // console.log(d)
+
+        tooltip.style("visibility", "visible")
+        .style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px")
+        .style("background" , "black")
+        .style("border-radius", "3px")
+        .style("opacity", .8)
+        .style("color", "white")
+        .style("width", "300px")
+        .style("height", "89px")
+        .style("padding", "6px")
+        .style("z-index", "10")
+        .html("Name :"+d.data.name)
+        //.text(txt)
+    }
+	
+	    function handleMouseOut(d){
+      tooltip.style("visibility", "hidden")
+      //.style("position", "absolute")
+      .style("background" , "black")
+      .style("border-radius", "3px")
+      .style("color", "white")
+      .style("padding", "6px")
+      .style("z-index", "10")
+    }
 
   var text = g.selectAll("text")
     .data(nodes)
@@ -105,10 +159,8 @@ d3.json("flare.json", function(error, root) {
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
       .text(function(d) { return d.data.name; });
 
-  var node = g.selectAll("circle,text")
-  ;
-  
-  
+  var node = g.selectAll("circle,text");
+
 
   svg
       .style("background-img", color(10))
@@ -120,7 +172,7 @@ d3.json("flare.json", function(error, root) {
     var focus0 = focus; focus = d;
 
     var transition = d3.transition()
-        .duration(d3.event.altKey ? 7500 : 750)
+        .duration(d3.event.altKey ? 7500 : 1200)
         .tween("zoom", function(d) {
           var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
           return function(t) { zoomTo(i(t)); };
@@ -130,7 +182,8 @@ d3.json("flare.json", function(error, root) {
       .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
         .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
-        .on("end", function(d) { if (d.parent !== focus) this.style.display = "i"; });
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; })
+
   }
 
   function zoomTo(v) {
