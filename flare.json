@@ -9,14 +9,16 @@
      "name": "Nachos",
 	 "children": [
 
+      
+
 	  {"name": "Ultimate Nachos",
 	  	 "children": [
        {"name": "Corn Tortilla Chips, Cheddar, Sausage, Jalapenos, Tomatoes, Avocado"}
       ] 
 	  },
-	  	  {"name": "Ultimate Nachos",
+	  	  {"name": "Super Nachos",
 	  	 "children": [
-       {"name": "Corn Tortilla Chips, Cheddar, Sausage, Jalapenos, Tomatoes, Avocado"}
+       {"name": "Ground beef, Taco seasoning, Tortilla Chips, Cheddar, Refried beans, Salsa, Sour Cream, Black Olives, Jalapeno peppers"}
       ] 
 	  },
 	  	  {"name": "Bacon Nachos",
@@ -48,15 +50,205 @@
 	  	 "children": [
        {"name": "Russet potatoes, vegetable oil, Garlic Powder, Taco seasoning, lime juice, Black beans, Cumin, Chili powder, Cayenne pepper, 4-cheese Mexican blend cheese, Green Chili, Green Onion"}
       ] 
-	  },
-	  
-	  {"name": "Ultimate Nachos",
+	  }
+     ]
+	 
+	},
+	
+	
+	{
+     "name": "French fries",
+	 "children": [
+
+	  {"name": "Tijuana Street Fries",
 	  	 "children": [
-       {"name": "Corn Tortilla Chips, Cheddar, Sausage, Jalapenos, Tomatoes, Avocado"}
+       {"name": "Pork roast, Queso, Salsa, Avacado"}
+      ] 
+	  },
+	  	  {"name": "Buttermilk Ranch Fries",
+	  	 "children": [
+       {"name": "dried buttermilk mixed with flavorful herbs"}
+      ] 
+	  },
+	  	  {"name": "Buffalo fries",
+	  	 "children": [
+       {"name": "Cayenne, Frank's Red Hot Sauce, Ranch, Blue Cheese"}
+      ] 
+	  },
+	  	  {"name": "Greek Fries",
+	  	 "children": [
+       {"name": "Fried spud, lemon juice, feta cheese and oregano"}
+      ] 
+	  },
+	  	  {"name": "Pesto Fries",
+	  	 "children": [
+       {"name": "Ore-Ida shoestring fries, Balsamic reduction, Spinach Basil Pesto sauce, Olive oil"}
+      ] 
+	  },
+	  	  {"name": "Loaded Maple Bacon Donuts",
+	  	 "children": [
+       {"name": "Pillsbury Grand Biscuits, Chocolate, Maple butter, Crispy Bacon"}
       ] 
 	  }
      ]
+	 
 	},
+	
+		{
+     "name": "Dessert",
+	 "children": [
+
+	  {"name": "Fudgy Nutella Cake",
+	  	 "children": [
+       {"name": "Nutella, Eggs, Flour "}
+      ] 
+	  },
+	  	  {"name": "Chocolate caramel pudding",
+	  	 "children": [
+       {"name": "Heavy Cream, Chocolate Chips, Caramel Sauce"}
+      ] 
+	  },
+	  	  {"name": "Caramel Apple Tart",
+	  	 "children": [
+       {"name": "Apples, Puff Pastry, Dulce de Leche"}
+      ] 
+	  },
+	  	  {"name": "Orange Gingerbread Trifles",
+	  	 "children": [
+       {"name": "Gingerbread cake, Cool Whip, Orange marmalade"}
+      ] 
+	  },
+	  	  {"name": "Coffee Mousse",
+	  	 "children": [
+       {"name": "Sweet Condensed Milk, Heavy cream, Instant Espresso"}
+      ] 
+	  }
+     ]
+	 
+	},
+	
+	
+	{
+     "name": "Sandwiches",
+	 "children": [
+
+	  {"name": "Cheesesteak",
+	  	 "children": [
+       {"name": "Griddle-seared sirloin, Provolone"}
+      ] 
+	  },
+	  	  {"name": "Breakfast Sandwich",
+	  	 "children": [
+       {"name": "Sesame roll, Slice of melted American, Salty meat of your choosing, Fried egg covered in butter"}
+      ] 
+	  },
+	  	  {"name": "Braaibroodjie",
+	  	 "children": [
+       {"name": "Braaibroodjie, grilled cheese with sweet and sour chutney"}
+      ] 
+	  },
+	  	  {"name": "Fig and Prosciutto",
+	  	 "children": [
+       {"name": "Ciabatta rolls, Herb and Garlic soft whipped cheese, prosciutto, Figs, Honey"}
+      ] 
+	  },
+	  	  {"name": "Healthy Yummy",
+	  	 "children": [
+       {"name": "Bagel, Chicken, Sprouts, Provolone"}
+      ] 
+	  },
+	  	  {"name": "Veggie",
+	  	 "children": [
+       {"name": "Cannellini beans, Eggplant, Garlic, Tahini, Lemon juice, Olive Oil"}
+      ] 
+	  }
+     ]
+	 
+	},
+	
+	
+	{
+     "name": "Meat and more",
+	 "children": [
+
+	  {"name": " Kakori Kebab",
+	  	 "children": [
+       {"name": "Lucknowi Kebab, Chaat masala, Mint chutney "}
+      ] 
+	  },
+	  	  {"name": "Stir Fried Chilli Chicken",
+	  	 "children": [
+       {"name": "Chicken, Garlic, Chillis, chilli sauce, Soy Sauce, Sugar, Basil, Oil "}
+      ] 
+	  },
+	  	  {"name": "Spicy prawn cocktail",
+	  	 "children": [
+       {"name": "Prawns, Coriander, Cucumber, spring onions, Chilli"}
+      ] 
+	  },
+	  
+	  	  {"name": "Thai Prawns",
+	  	 "children": [
+       {"name": "Tiger Prawns, Bananas, Cucumbers, Coriander, Root Ginger, Red Chilli, Lime Juice, Fish Sauce, Dark brown soft sugar "}
+      ] 
+	  },
+	  	  {"name": "Chicken Pakora",
+	  	 "children": [
+       {"name": "Chicken, Cabbage, Carrots, Chili powder, Ground coriander, Tandoori masala, Coriander, Chicpeas"}
+      ] 
+	  },
+	 	   {"name": "Thai Fish Cakes",
+	  	 "children": [
+       {"name": "White fish, Lemongrass, Coconut cream, Fish sauce, Palm Sugar"}
+      ] },
+	  
+	   {"name": "Bacon wrapped scallops",
+	  	 "children": [
+       {"name": "Bacon, Scallops, Lemon juice"}
+      ] }
+     ]
+	 
+	},
+	
+		{
+     "name": "Vegetarian heaven",
+	 "children": [
+
+	  {"name": "Balsamic mushrooms",
+	  	 "children": [
+       {"name": "Galic, Mushrooms, Balsamic vinegar, White wine, Olive oil"}
+      ] 
+	  },
+	  	  {"name": "Halloumi cheese fingers",
+	  	 "children": [
+       {"name": "Halloumi cheese, Lemon juice, Dried oregano, Olive oil"}
+      ] 
+	  },
+	  	  {"name": "Fig and Olive Tapenade",
+	  	 "children": [
+       {"name": "Dried figs, Balsamic vinegar, Rosemary, Thyme, Toasted walnuts, Kalamata olives, Cayenne Pepper, Cream Cheese"}
+      ] 
+	  },
+	  
+	 {"name": "Classic Bruschetta",
+	  	 "children": [
+       {"name": "Ciabatta, vine-ripened tomatoes, Fresh Basil, Olive Oil"}
+      ] 
+	  },
+	  	  {"name": "Espinacas con Garbanzos",
+	  	 "children": [
+       {"name": "Spinach, Chickpeas, Cumin, Garlic, Onion"}
+      ] 
+	  },
+		{"name": "Spinach and feta pitta bakes",
+	  	 "children": [
+       {"name": "Sun-dried tomato pesto, Spinach, Feta cheese, Parmesan, Mushrooms"}
+      ] 
+	  }
+     ]
+	 
+	},
+	
 	{
      "name": "Pizza",
 	 "children": [
@@ -65,11 +257,7 @@
        {"name": "Tomato sauce, mozzarella, and oregano"}
       ] 
 	  },
-	  {"name": "Prosciutto e Funghi",
-	  	  	  	"children": [
-       {"name": "Tomato sauce, mozzarella, ham, mushrooms"}
-      ] 
-	  },
+
     {"name": "Marinara", 
 	   "children": [
        {"name": "Tomato sauce, garlic and basil"}
@@ -92,6 +280,7 @@
        {"name": "Tomato sauce, seafood"}
       ] 
 	  },
+
 	  	  {"name": "Napoli",
 	  	  	  	"children": [
        {"name": "Tomato sauce, mozzarella, oregano, anchovies"}
@@ -126,6 +315,12 @@
 	  	  {"name": "Valtellina",
 	  	  	  	"children": [
        {"name": "Tomato sauce, mozzarella, bresaola, Parmesan flakes, rocket"}
+      ] 
+	  },
+	  
+	  	  	  {"name": "Prosciutto e Funghi",
+	  	  	  	"children": [
+       {"name": "Tomato sauce, mozzarella, ham, mushrooms"}
       ] 
 	  },
 	  	  {"name": "Calzone",
@@ -496,7 +691,7 @@
        {"name": "Firewater, Absolut Peppar, Tabasco sauce"}
       ] 
 	  },
-	  {"name": "Flaming Dr. Pepper",
+	  {"name": "Flaming Dr.Pepper",
 	  	  	  	"children": [
        {"name": "Amaretto, Vodka, 151 proof rum, Dr.Pepper, Beer"}
       ] 
@@ -904,11 +1099,13 @@
       ] 
 	  
 	  },
-	  	  {"name": "Egg-Nog - Classic Cooked",
+	  
+	  	  {"name": "Gluehwein",
 	  	  	  	"children": [
-       {"name": "Egg, Sugar, Salt, Milk, Vanilla extract"}
+       {"name": "Water, Sugar, Cinnamon, Cloves, Lemon Peel"}
       ] 
 	  },
+	  	  
 	  	  {"name": "Sunny Holiday Punch",
 	  	  	  	"children": [
        {"name": "Pineapple juice, Club Soda, Orange juice, Lemon, Berries, Champagne"}
@@ -919,9 +1116,10 @@
        {"name": "Red Wine, Lemon-lime soda"}
       ] 
 	  },
-	  {"name": "Gluehwein",
+	  
+	  {"name": "Egg-Nog - Classic Cooked",
 	  	  	  	"children": [
-       {"name": "Water, Sugar, Cinnamon, Cloves, Lemon Peel"}
+       {"name": "Egg, Sugar, Salt, Milk, Vanilla extract"}
       ] 
 	  }
      ]

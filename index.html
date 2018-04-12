@@ -49,7 +49,7 @@ p {
 <body background="cute2.jpg">
     <header>
       <h1 style="background-color:Tomato;">🍹Welcome to the Cocktail Bar🍹</h1>
-      <p style="background-color:MediumSeaGreen;"> Choose from a variety of options- Alcoholic, Non-Alcoholic or Optional Alcoholic.<br><br> Clicking on a circle will help you narrow down your search for the perfect drink, along with it's ingredients</p>
+      <p style="background-color:MediumSeaGreen;"> Choose from a variety of options to Drink and Eat<br><br> Clicking on a circle will help you narrow down your search for the perfect drink, along with it's ingredients</p>
     </header>
 
     <!-- container for force layout visualisation  -->
@@ -72,12 +72,12 @@ var svg = d3.select("svg"),
 
 var color = d3.scaleLinear()
     .domain([-1, 5])
-    .range(["hsl(50,300%,90%)", "hsl(240,60%,50%)"])
+    .range(["hsl(50,340%,80%)", "hsl(240,60%,50%)"])
     .interpolate(d3.interpolateHcl);
 
 var pack = d3.pack()
     .size([w,h])
-    .padding(70);
+    .padding(200);
 
 d3.json("flare.json", function(error, root) {
   if (error) throw error;
@@ -128,27 +128,26 @@ d3.json("flare.json", function(error, root) {
        // console.log(d)
 
         tooltip.style("visibility", "visible")
-        .style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px")
+        .style("top", (event.pageY-5)+"px").style("left",(event.pageX+20)+"px")
         .style("background" , "black")
         .style("border-radius", "3px")
         .style("opacity", .8)
         .style("color", "white")
         .style("width", "300px")
-        .style("height", "89px")
+        .style("height", "20px")
         .style("padding", "6px")
-        .style("z-index", "10")
+        .style("z-index", "20")
         .html("Name :"+d.data.name)
-        //.text(txt)
+
     }
 	
-	    function handleMouseOut(d){
+	 function handleMouseOut(d){
       tooltip.style("visibility", "hidden")
-      //.style("position", "absolute")
       .style("background" , "black")
       .style("border-radius", "3px")
       .style("color", "white")
       .style("padding", "6px")
-      .style("z-index", "10")
+      .style("z-index", "20")
     }
 
   var text = g.selectAll("text")
